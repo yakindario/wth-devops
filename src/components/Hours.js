@@ -16,7 +16,8 @@ const Hours = () => {
     return (
         <div>
             <h2>Today's Opening Hours</h2>
-            <p>We are open from: - {hours}</p>
+            <p>We are open from: {hours}</p>
+            <p>hora </p>
         </div>
     );
 }
