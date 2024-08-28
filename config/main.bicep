@@ -150,6 +150,10 @@ resource containerApp 'Microsoft.App/containerApps@2022-03-01' = {
             cpu: json('0.5') 
             memory: '1.0Gi'
           }
+          ports: [
+            {
+              port: 3000
+            }
         }
       ]
     }  
